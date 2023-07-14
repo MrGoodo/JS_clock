@@ -1,0 +1,41 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  height: 100vh;
+  background-image: url("https://wallpapers.com/images/hd/waterfalls-in-forest-night-pixel-art-aq5gkn823sobltuc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.clock {
+  font-family: "Nunito", sans-serif;
+  font-size: 100px;
+}
+
+.clock span {
+  color: rgb(255, 230, 230);
+  font-family: "Nunito", sans-serif;
+}
+
+.form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 150px;
+  padding: 20px;
+  width: 700px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(19.5px);
+  -webkit-backdrop-filter: blur(19.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
